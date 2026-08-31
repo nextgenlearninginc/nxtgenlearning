@@ -1,0 +1,186 @@
+import type { AssessmentQuestion } from "@/types";
+
+/** 15 questions ramping from basic arithmetic to advanced algebra. */
+export const mathQuestions: AssessmentQuestion[] = [
+  {
+    id: 1,
+    difficulty: 1,
+    prompt: "What is 7 + 6?",
+    options: [
+      { id: "a", text: "12" },
+      { id: "b", text: "13" },
+      { id: "c", text: "14" },
+      { id: "d", text: "11" },
+    ],
+    correct: "b",
+  },
+  {
+    id: 2,
+    difficulty: 1,
+    prompt: "What is 9 × 4?",
+    options: [
+      { id: "a", text: "36" },
+      { id: "b", text: "32" },
+      { id: "c", text: "45" },
+      { id: "d", text: "13" },
+    ],
+    correct: "a",
+  },
+  {
+    id: 3,
+    difficulty: 1,
+    prompt: "What is 84 − 27?",
+    options: [
+      { id: "a", text: "67" },
+      { id: "b", text: "57" },
+      { id: "c", text: "63" },
+      { id: "d", text: "47" },
+    ],
+    correct: "b",
+  },
+  {
+    id: 4,
+    difficulty: 2,
+    prompt: "Which fraction is equal to 1/2?",
+    options: [
+      { id: "a", text: "2/3" },
+      { id: "b", text: "3/8" },
+      { id: "c", text: "4/8" },
+      { id: "d", text: "2/5" },
+    ],
+    correct: "c",
+  },
+  {
+    id: 5,
+    difficulty: 2,
+    prompt: "What is 0.25 written as a fraction?",
+    options: [
+      { id: "a", text: "1/2" },
+      { id: "b", text: "1/4" },
+      { id: "c", text: "1/5" },
+      { id: "d", text: "2/5" },
+    ],
+    correct: "b",
+  },
+  {
+    id: 6,
+    difficulty: 2,
+    prompt: "What is 3/5 + 1/5?",
+    options: [
+      { id: "a", text: "4/10" },
+      { id: "b", text: "2/5" },
+      { id: "c", text: "4/5" },
+      { id: "d", text: "1" },
+    ],
+    correct: "c",
+  },
+  {
+    id: 7,
+    difficulty: 3,
+    prompt: "What is −8 + 15?",
+    options: [
+      { id: "a", text: "7" },
+      { id: "b", text: "−7" },
+      { id: "c", text: "23" },
+      { id: "d", text: "−23" },
+    ],
+    correct: "a",
+  },
+  {
+    id: 8,
+    difficulty: 3,
+    prompt: "Evaluate: 6 + 2 × 5",
+    options: [
+      { id: "a", text: "40" },
+      { id: "b", text: "16" },
+      { id: "c", text: "22" },
+      { id: "d", text: "13" },
+    ],
+    correct: "b",
+  },
+  {
+    id: 9,
+    difficulty: 3,
+    prompt:
+      "A recipe uses 2 cups of flour for every 3 cups of sugar. How much flour is needed for 9 cups of sugar?",
+    options: [
+      { id: "a", text: "4 cups" },
+      { id: "b", text: "5 cups" },
+      { id: "c", text: "6 cups" },
+      { id: "d", text: "9 cups" },
+    ],
+    correct: "c",
+  },
+  {
+    id: 10,
+    difficulty: 4,
+    prompt: "Solve for x: 3x + 4 = 19",
+    options: [
+      { id: "a", text: "x = 3" },
+      { id: "b", text: "x = 5" },
+      { id: "c", text: "x = 7" },
+      { id: "d", text: "x = 15" },
+    ],
+    correct: "b",
+  },
+  {
+    id: 11,
+    difficulty: 4,
+    prompt: "What is the slope of the line through (1, 2) and (4, 11)?",
+    options: [
+      { id: "a", text: "2" },
+      { id: "b", text: "3" },
+      { id: "c", text: "9" },
+      { id: "d", text: "1/3" },
+    ],
+    correct: "b",
+  },
+  {
+    id: 12,
+    difficulty: 4,
+    prompt: "Solve the inequality: 2x − 5 > 7",
+    options: [
+      { id: "a", text: "x > 6" },
+      { id: "b", text: "x > 1" },
+      { id: "c", text: "x < 6" },
+      { id: "d", text: "x > 12" },
+    ],
+    correct: "a",
+  },
+  {
+    id: 13,
+    difficulty: 5,
+    prompt: "Factor: x² + 5x + 6",
+    options: [
+      { id: "a", text: "(x + 1)(x + 6)" },
+      { id: "b", text: "(x + 2)(x + 3)" },
+      { id: "c", text: "(x − 2)(x − 3)" },
+      { id: "d", text: "(x + 5)(x + 1)" },
+    ],
+    correct: "b",
+  },
+  {
+    id: 14,
+    difficulty: 5,
+    prompt: "If f(x) = 2x² − 3, what is f(4)?",
+    options: [
+      { id: "a", text: "13" },
+      { id: "b", text: "29" },
+      { id: "c", text: "32" },
+      { id: "d", text: "5" },
+    ],
+    correct: "b",
+  },
+  {
+    id: 15,
+    difficulty: 5,
+    prompt: "What are the solutions to x² − 9 = 0?",
+    options: [
+      { id: "a", text: "x = 3 only" },
+      { id: "b", text: "x = 9 and x = −9" },
+      { id: "c", text: "x = 3 and x = −3" },
+      { id: "d", text: "no real solutions" },
+    ],
+    correct: "c",
+  },
+];
