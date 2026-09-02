@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import {
   Award,
-  Clock,
+  GraduationCap,
   HeartHandshake,
   Sparkles,
   Users,
@@ -15,7 +15,7 @@ import { VolunteerForm } from "@/components/forms/volunteer-form";
 export const metadata: Metadata = {
   title: "Become a Volunteer Tutor",
   description:
-    "Volunteer with NextGen Learning to tutor Math or English online. Gain leadership experience, earn volunteer hours, and make a real community impact.",
+    "Volunteer with NextGen Learning to tutor Math or English online. Gain leadership and teaching experience while making a real community impact.",
 };
 
 const benefits = [
@@ -26,10 +26,10 @@ const benefits = [
       "Plan lessons, guide small groups, and build the kind of real responsibility that stands out on applications.",
   },
   {
-    icon: Clock,
-    title: "Volunteer hours",
+    icon: GraduationCap,
+    title: "Real teaching practice",
     description:
-      "Earn verified service hours for school, scholarships, and awards \u2014 tracked and documented for you.",
+      "Sharpen how you explain, coach, and adapt to a learner's pace — skills that carry into any future classroom or workplace.",
   },
   {
     icon: HeartHandshake,
@@ -52,7 +52,7 @@ export default function VolunteerPage() {
       <PageHeader
         eyebrow="Join the team"
         title="Become a Volunteer Tutor"
-        description="Share what you know and change a student\u2019s trajectory. Our volunteers are high schoolers and university students who tutor Math and English online \u2014 no teaching experience required."
+        description="Share what you know and change a student's trajectory. Our volunteers are high schoolers and university students who tutor Math and English online — no teaching experience required."
       />
 
       {/* Benefits */}
@@ -109,7 +109,7 @@ export default function VolunteerPage() {
           <SectionHeading
             eyebrow="Application"
             title="Apply to volunteer"
-            description="Fill out the form below \u2014 it takes about five minutes. We\u2019ll follow up with next steps."
+            description="Fill out the form below — it takes about five minutes. We'll follow up with next steps."
             className="mx-auto mb-10"
           />
           <div className="mx-auto max-w-2xl">
