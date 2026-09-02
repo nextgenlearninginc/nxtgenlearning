@@ -58,7 +58,7 @@ export const faqs: FaqItem[] = [
   {
     question: "How do I volunteer?",
     answer:
-      "High school and university students can apply through our Volunteer page. After a short application and orientation, you'll be matched with students in your chosen subject. We're happy to document your service hours based on the sessions you complete with us — check with your school about their specific verification requirements.",
+      "High school and university students can apply through our Volunteer page. After a short application and orientation, you'll be matched with students in your chosen subjectand receive lesson resources and support along the way.",
   },
 ];
 
