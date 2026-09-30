@@ -9,7 +9,7 @@ export function HowItWorks() {
         <SectionHeading
           eyebrow="How it works"
           title="Four steps to your first session"
-          description="Getting started is simple. Most families go from assessment to their first class in a single week."
+          description="Getting started is simple. Most families go from signup to their first class in about a week."
         />
 
         <RevealGroup className="relative mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">

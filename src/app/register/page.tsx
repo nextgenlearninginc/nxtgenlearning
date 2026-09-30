@@ -4,18 +4,18 @@ import { PageHeader } from "@/components/shared/page-header";
 import { RegistrationForm } from "@/components/forms/registration-form";
 
 export const metadata: Metadata = {
-  title: "Register",
+  title: "Sign Up",
   description:
-    "Register a student for free online Math and English tutoring with NextGen Learning. Your assessment level carries over automatically.",
+    "Sign up for free online Math and English tutoring with NextGen Learning. Takes less than a minute.",
 };
 
 export default function RegisterPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Enrollment"
-        title="Register your student"
-        description="It takes about five minutes. If you\u2019ve completed the assessment, your level is already filled in for you."
+        eyebrow="Get started"
+        title="Sign up your student"
+        description="Just a few quick details to get started — takes less than a minute. We'll follow up to schedule your first lesson and learn more then."
       />
       <section className="pb-24">
         <div className="container">

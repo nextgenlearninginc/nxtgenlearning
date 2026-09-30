@@ -292,7 +292,7 @@ export function VolunteerForm() {
             />
           </label>
           <p className="text-xs text-muted-foreground">
-            Upload is a placeholder in this build \u2014 wire it to storage
+            Upload is a placeholder in this build — wire it to storage
             (e.g. Supabase Storage) when the backend is added.
           </p>
         </div>

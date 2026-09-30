@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "The terms that govern participation in NextGen Learning\u2019s free tutoring programs and volunteer opportunities.",
+    "The terms that govern participation in NextGen Learning’s free tutoring programs and volunteer opportunities.",
 };
 
 const sections: { heading: string; body: string[] }[] = [
@@ -32,7 +32,7 @@ const sections: { heading: string; body: string[] }[] = [
   {
     heading: "4. Code of Conduct",
     body: [
-      "Everyone in our community \u2014 students, guardians, and volunteers \u2014 is expected to be respectful, honest, and safe. Harassment, discrimination, or disruptive behavior may result in removal from the program. Sessions are for educational purposes only.",
+      "Everyone in our community — students, guardians, and volunteers — is expected to be respectful, honest, and safe. Harassment, discrimination, or disruptive behavior may result in removal from the program. Sessions are for educational purposes only.",
     ],
   },
   {
@@ -44,7 +44,7 @@ const sections: { heading: string; body: string[] }[] = [
   {
     heading: "6. No Guarantees",
     body: [
-      "We are committed to high-quality tutoring, but we do not guarantee specific academic outcomes, grades, or test results. Our services are provided \u201cas is\u201d and \u201cas available.\u201d",
+      "We are committed to high-quality tutoring, but we do not guarantee specific academic outcomes, grades, or test results. Our services are provided “as is” and “as available.”",
     ],
   },
   {

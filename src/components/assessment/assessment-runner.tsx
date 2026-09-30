@@ -31,13 +31,13 @@ const subjectMeta: Record<
     label: "Math",
     accent: "from-primary to-sky-500",
     blurb:
-      "15 questions that gently ramp from arithmetic to algebra. There\u2019s no time limit \u2014 just answer what you can.",
+      "15 questions that gently ramp from arithmetic to algebra. There’s no time limit — just answer what you can.",
   },
   english: {
     label: "English",
     accent: "from-secondary to-emerald-400",
     blurb:
-      "15 questions from reading basics to essay craft. There\u2019s no time limit \u2014 do your best and skip nothing.",
+      "15 questions from reading basics to essay craft. There’s no time limit — do your best and skip nothing.",
   },
 };
 
@@ -136,8 +136,8 @@ export function AssessmentRunner({
           <ul className="mt-6 space-y-3 text-sm">
             {[
               `${total} multiple-choice questions, increasing in difficulty`,
-              "About 10 minutes \u2014 no timer, no pressure",
-              "You\u2019ll get a level and a clear next step at the end",
+              "About 10 minutes — no timer, no pressure",
+              "You’ll get a level and a clear next step at the end",
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-secondary" />
@@ -230,7 +230,7 @@ export function AssessmentRunner({
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Button asChild variant="gradient" size="lg">
                 <Link href="/register">
-                  Continue Registration
+                  Sign Up — It&apos;s Free
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </Button>
@@ -240,8 +240,9 @@ export function AssessmentRunner({
               </Button>
             </div>
             <p className="mt-4 text-center text-xs text-muted-foreground">
-              Your level has been saved and will be filled in automatically on
-              the registration form.
+              This result is just for you right now — signup doesn&apos;t ask
+              for it. If it's helpful, feel free to mention it when we reach
+              out to schedule the first lesson.
             </p>
           </div>
         </motion.div>

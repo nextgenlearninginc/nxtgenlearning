@@ -7,9 +7,9 @@ import { Section } from "@/components/shared/section";
 
 export function CtaBand({
   title = "Ready to get started?",
-  description = "Take the free placement assessment and find your student's level in about 10 minutes.",
-  primaryLabel = "Take Assessment",
-  primaryHref = "/assessment",
+  description = "Sign up in under a minute — no cost, ever. We'll follow up to schedule the first lesson.",
+  primaryLabel = "Sign Up — It's Free",
+  primaryHref = "/register",
   secondaryLabel = "Become a Volunteer",
   secondaryHref = "/volunteer",
 }: {

@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Bricolage_Grotesque } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
 
 import "./globals.css";
 import { siteConfig } from "@/lib/site";
@@ -103,7 +102,6 @@ export default function RootLayout({
             <Footer />
           </div>
         </ThemeProvider>
-        <Analytics />
       </body>
     </html>
   );

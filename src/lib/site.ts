@@ -24,11 +24,13 @@ export type NavItem = {
   href: string;
 };
 
+// "Take Assessment" is intentionally NOT in the main nav — sign up is the
+// primary call to action everywhere. The assessment lives at /assessment and
+// is linked only as a quiet, optional text link (see Footer).
 export const mainNav: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Programs", href: "/programs" },
-  { label: "Take Assessment", href: "/assessment" },
   { label: "Volunteer", href: "/volunteer" },
   { label: "FAQ", href: "/faq" },
   { label: "Contact", href: "/contact" },
@@ -38,8 +40,7 @@ export const footerNav = {
   programs: [
     { label: "Math Program", href: "/programs#math" },
     { label: "English Program", href: "/programs#english" },
-    { label: "Take Assessment", href: "/assessment" },
-    { label: "Register", href: "/register" },
+    { label: "Sign Up", href: "/register" },
   ],
   organization: [
     { label: "About Us", href: "/about" },

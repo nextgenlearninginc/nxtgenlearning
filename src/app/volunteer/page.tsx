@@ -52,7 +52,7 @@ export default function VolunteerPage() {
       <PageHeader
         eyebrow="Join the team"
         title="Become a Volunteer Tutor"
-        description="Share what you know and change a student's trajectory. Our volunteers are high schoolers and university students who tutor Math and English online — no teaching experience required."
+        description="Share what you know and change a student’s trajectory. Our volunteers are high schoolers and university students who tutor Math and English online — no teaching experience required."
       />
 
       {/* Benefits */}
@@ -109,7 +109,7 @@ export default function VolunteerPage() {
           <SectionHeading
             eyebrow="Application"
             title="Apply to volunteer"
-            description="Fill out the form below — it takes about five minutes. We'll follow up with next steps."
+            description="Fill out the form below — it takes about five minutes. We’ll follow up with next steps."
             className="mx-auto mb-10"
           />
           <div className="mx-auto max-w-2xl">

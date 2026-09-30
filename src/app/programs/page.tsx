@@ -64,9 +64,9 @@ export default function ProgramsPage() {
                   </ul>
 
                   <div className="mt-8 flex-1" />
-                  <Button asChild variant="outline" className="mt-2 w-full">
-                    <Link href={`/assessment/${program.id}`}>
-                      Take the {program.name.split(" ")[0]} assessment
+                  <Button asChild variant="gradient" className="mt-2 w-full">
+                    <Link href="/register">
+                      Sign up for {program.name.split(" ")[0]}
                       <ArrowRight className="h-4 w-4" />
                     </Link>
                   </Button>
@@ -104,7 +104,7 @@ export default function ProgramsPage() {
           <SectionHeading
             eyebrow="The five levels"
             title="A clear path from basics to advanced"
-            description="Each subject has five progressive levels. Your placement assessment points you to the right starting rung."
+            description="Each subject has five progressive levels. We'll help find the right starting point after you sign up — or try our optional free practice check any time."
           />
 
           <div className="mt-14 grid gap-10 lg:grid-cols-2">

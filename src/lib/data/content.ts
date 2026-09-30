@@ -33,17 +33,17 @@ export const faqs: FaqItem[] = [
   {
     question: "Is tutoring really free?",
     answer:
-      "Yes — 100% free, always. NextGen Learning is a nonprofit funded by grants and donations. There are no fees, no subscriptions, and no hidden costs for any student or family.",
+      "Yes — 100% free, always. NextGen Learning is volunteer-run. There are no fees, no subscriptions, and no hidden costs for any student or family.",
   },
   {
     question: "Who can join?",
     answer:
-      "Elementary and middle school students (roughly ages 6–14) are welcome to join our Math and English programs. Students of any background or ability level can enroll — the placement assessment helps us meet each student exactly where they are.",
+      "Elementary and middle school students (roughly ages 6–14) are welcome to join our Math and English programs. Students of any background or ability level can enroll — just sign up and we'll take it from there.",
   },
   {
     question: "How are students grouped?",
     answer:
-      "Students are grouped by skill level, not by age or grade. After the placement assessment, each student receives a level (M1–M5 for Math, E1–E5 for English) and joins a small group of peers working on the same material.",
+      "Students are grouped by skill level, not by age or grade (M1–M5 for Math, E1–E5 for English). We'll help find the right level after you sign up. If you'd like, you can also try our optional free practice check any time for a sense of where your student stands.",
   },
   {
     question: "How long are sessions?",
@@ -58,7 +58,7 @@ export const faqs: FaqItem[] = [
   {
     question: "How do I volunteer?",
     answer:
-      "High school and university students can apply through our Volunteer page. After a short application and orientation, you'll be matched with students in your chosen subjectand receive lesson resources and support along the way.",
+      "High school and university students can apply through our Volunteer page. After a short application and orientation, you'll be matched with students in your chosen subject and receive lesson resources and support along the way.",
   },
 ];
 
@@ -168,23 +168,23 @@ export type Step = { title: string; description: string };
 
 export const howItWorks: Step[] = [
   {
-    title: "Take a Placement Assessment",
+    title: "Sign Up",
     description:
-      "A short, friendly quiz in Math or English tells us exactly where your student is thriving and where they need support.",
+      "A quick, one-minute signup — just your name, email, and your student's grade. No cost, ever.",
   },
   {
-    title: "Receive Your Learning Level",
+    title: "We Follow Up",
     description:
-      "We assign one of five levels so your student joins a group working on just-right material — never too easy, never overwhelming.",
+      "We'll reach out within 1–2 days to learn a bit more and find the right volunteer tutor for your student.",
   },
   {
-    title: "Register",
+    title: "Pick a Time",
     description:
-      "Complete a quick registration. Your assessment level carries over automatically, so you're matched in minutes.",
+      "Choose a time that works for your family's schedule for the first lesson.",
   },
   {
     title: "Attend Weekly Online Sessions",
     description:
-      "Meet your volunteer tutor and small group each week to learn, practice, and grow — all from home, all for free.",
+      "Meet your volunteer tutor each week to learn, practice, and grow — all from home, all for free.",
   },
 ];

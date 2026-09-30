@@ -14,14 +14,14 @@ const sections: { heading: string; body: string[] }[] = [
   {
     heading: "1. Introduction",
     body: [
-      "NextGen Learning (\u201cwe\u201d, \u201cus\u201d, or \u201cour\u201d) is a nonprofit organization that provides free online Math and English tutoring. This Privacy Policy explains what information we collect, why we collect it, and the choices you have. Because we work with minors, we take privacy seriously and collect only what we need to run our programs.",
+      "NextGen Learning (“we”, “us”, or “our”) is a nonprofit organization that provides free online Math and English tutoring. This Privacy Policy explains what information we collect, why we collect it, and the choices you have. Because we work with minors, we take privacy seriously and collect only what we need to run our programs.",
     ],
   },
   {
     heading: "2. Information We Collect",
     body: [
       "Student and guardian details you provide during registration, such as name, age, grade, contact email, country, region, timezone, and availability.",
-      "Assessment responses and the resulting placement level, used to match students to the right program.",
+      "If a student takes our optional placement assessment, their responses and resulting level, used to help match students to the right program.",
       "Volunteer application details, including education background, subjects, experience, and availability.",
       "Basic technical information (such as device and browser type) that most websites collect automatically to keep the service secure and reliable.",
     ],
@@ -36,9 +36,9 @@ const sections: { heading: string; body: string[] }[] = [
     ],
   },
   {
-    heading: "4. Children\u2019s Privacy",
+    heading: "4. Children’s Privacy",
     body: [
-      "Our programs serve elementary and middle school students, so a parent or guardian must complete registration on a student\u2019s behalf. We do not knowingly collect more information from a child than is necessary to deliver tutoring, and guardians may request that we review, correct, or delete their child\u2019s information at any time.",
+      "Our programs serve elementary and middle school students, so a parent or guardian must complete registration on a student’s behalf. We do not knowingly collect more information from a child than is necessary to deliver tutoring, and guardians may request that we review, correct, or delete their child’s information at any time.",
     ],
   },
   {
@@ -73,7 +73,7 @@ export default function PrivacyPage() {
       <PageHeader
         eyebrow="Legal"
         title="Privacy Policy"
-        description="Your trust matters to us. Here\u2019s a plain-language summary of how we handle information for students, guardians, and volunteers."
+        description="Your trust matters to us. Here’s a plain-language summary of how we handle information for students, guardians, and volunteers."
       />
 
       <section className="pb-24">

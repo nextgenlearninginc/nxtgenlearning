@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Compass, Home } from "lucide-react";
+import { ArrowRight, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { LevelLadder } from "@/components/shared/level-ladder";
 
@@ -31,9 +31,9 @@ export default function NotFound() {
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg">
-            <Link href="/assessment">
-              <Compass className="h-4 w-4" />
-              Take an assessment
+            <Link href="/register">
+              Sign Up — It&apos;s Free
+              <ArrowRight className="h-4 w-4" />
             </Link>
           </Button>
         </div>

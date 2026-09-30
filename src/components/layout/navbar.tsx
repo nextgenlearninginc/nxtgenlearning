@@ -73,8 +73,14 @@ export function Navbar() {
 
         <div className="flex items-center gap-2">
           <ThemeToggle />
-          <Button asChild variant="gradient" size="lg" className="hidden sm:inline-flex">
-            <Link href="/register">Join Now</Link>
+          {/* Sign Up is always visible, on every screen size — it's the
+              site's primary call to action and must never be hidden behind
+              the mobile menu. */}
+          <Button asChild variant="gradient" size="lg" className="px-3.5 sm:px-6">
+            <Link href="/register">
+              <span className="hidden sm:inline">Sign Up — It&apos;s Free</span>
+              <span className="sm:hidden">Sign Up</span>
+            </Link>
           </Button>
 
           {/* Mobile toggle */}
@@ -117,11 +123,8 @@ export function Navbar() {
                   </Link>
                 </li>
               ))}
-              <li className="pt-2">
-                <Button asChild variant="gradient" size="lg" className="w-full">
-                  <Link href="/register">Join Now</Link>
-                </Button>
-              </li>
+              {/* Sign Up is not repeated here — it's already always visible
+                  in the header bar above, on every screen size. */}
             </ul>
           </motion.div>
         ) : null}

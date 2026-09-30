@@ -42,23 +42,18 @@ export type AssessmentResult = {
   level: LevelInfo;
 };
 
-/** Payload shape the registration form produces — mirrors a future DB row. */
+/**
+ * Payload shape the signup form produces — mirrors a future DB row.
+ * Intentionally minimal: just enough to get a family in the door. Anything
+ * else (goals, availability, subject preference, assessment level, etc.) is
+ * collected after signup or at the first lesson — see the confirmation
+ * screen in registration-form.tsx.
+ */
 export type RegistrationPayload = {
+  parentName: string;
+  email: string;
   studentFirstName: string;
-  studentLastName: string;
-  age: string;
-  grade: string;
-  guardianName: string;
-  guardianEmail: string;
-  studentEmail: string;
-  subject: "math" | "english" | "both";
-  assessmentLevel: string;
-  country: string;
-  region: string;
-  timezone: string;
-  preferredDays: string[];
-  emergencyContact: string;
-  notes: string;
+  studentGrade: string;
   agreed: boolean;
 };
 

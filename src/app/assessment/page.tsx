@@ -92,7 +92,7 @@ export default function AssessmentPage() {
             <p className="text-sm text-muted-foreground">
               Taking both is a great idea if your student needs help in Math and
               English. You can complete one now and come back for the other any
-              time \u2014 we\u2019ll remember your most recent level.
+              time — we’ll remember your most recent level.
             </p>
           </Reveal>
         </div>

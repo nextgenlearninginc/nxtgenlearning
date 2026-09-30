@@ -53,6 +53,17 @@ export function Footer() {
             Built with care for every learner.
           </p>
         </div>
+
+        {/* Quiet, optional link to the placement assessment — never a
+            requirement, just available if a family wants it. */}
+        <div className="mt-4 text-center text-xs text-muted-foreground">
+          <Link
+            href="/assessment"
+            className="underline-offset-4 hover:underline"
+          >
+            Curious where your student stands? Try our free practice check.
+          </Link>
+        </div>
       </div>
     </footer>
   );
